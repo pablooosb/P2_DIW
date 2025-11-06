@@ -1,0 +1,22 @@
+.logo {
+  height: 40px;
+  width: auto;
+  margin-right: 10px;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center; /* centra verticalmente */
+  gap: 10px; /* espacio entre el logo y el texto */
+}
+ul li{
+  margin-left: 20px;
+}
+h1{
+  font-weight: bold;
+}
+.carousel-item img{
+  filter: brightness(50%)
+}
+.carousel-caption h1, .textoPrincipal{
+  color: #212529;
+}
