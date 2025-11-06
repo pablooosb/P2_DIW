@@ -12,23 +12,23 @@
 
     <header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container">
-                <a class="navbar-brand fw-bold" href="#"><img src="./multimedia/img/logoAWwhite.png" alt="logoWeb" class="logo"><span>Accesibilidad Web</span></a>
+            <div class="container-fluid">
+                <a class="navbar-brand align-items-center fw-bold gap-2 d-flex" href="#inicio"><img src="./multimedia/img/logoAWwhite.png" alt="logoWeb" class="logo"><span>Accesibilidad Web</span></a>
                 <div class="navbar-collapse menu" id="menu">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#queEs">Qué es</a></li>
-                        <li class="nav-item"><a class="nav-link" href="secundaria.html">Normativa</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link" href="inicio">Inicio</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="#queEs">Qué es</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="secundaria.html">Normativa</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-    <main class="containerMain">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators" >
+    <main class="container-fluid px-0">
+        <div  id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -36,21 +36,21 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
             <img src="./multimedia/img/imagen1.png" class="d-block w-100" alt="imagenAccesibilidad1">
-                <div class="carousel-caption bg-white bg-opacity-50 d-none d-md-block rounded p-4">
+                <div class="carousel-caption bg-white bg-opacity-75 d-none d-md-block rounded p-4">
                     <h1>Diseño inclusivo</h1>
                     <p class="textoPrincipal">El diseño accesible garantiza que todas las personas, sin importar sus capacidades, puedan navegar, comprender e interactuar con el contenido de una web sin barreras.</p>
                 </div>
             </div>
             <div class="carousel-item">
             <img src="./multimedia/img/imagen3.jpg" class="d-block w-100" alt="imagenAccesibilidad2">
-                <div class="carousel-caption bg-white bg-opacity-50 d-none d-md-block rounded p-4">
+                <div class="carousel-caption bg-white bg-opacity-75 d-none d-md-block rounded p-4">
                     <h1>Beneficios para todos</h1>
                     <p class="textoPrincipal">Una web accesible no solo ayuda a las personas con discapacidad: mejora la experiencia de usuario, el posicionamiento en buscadores y la reputación digital de cualquier proyecto.</p>
                 </div>
             </div>
             <div class="carousel-item">
             <img src="./multimedia/img/imagen2.png" class="d-block w-100" alt="imagenAccesibilidad3">
-                <div class="carousel-caption bg-white bg-opacity-50 d-none d-md-block rounded p-4">
+                <div class="carousel-caption bg-white bg-opacity-75 d-none d-md-block rounded p-4">
                     <h1>Compromiso digital</h1>
                     <p class="textoPrincipal">La accesibilidad web es un compromiso ético y profesional. Implementarla refleja respeto, empatía y responsabilidad social en el entorno digital.</p>
                 </div>
@@ -67,12 +67,12 @@
         </div>
     </main>
 
-    <section class="container py-5" id="queEs">
-        <h2 class="text-center mb-3">¿Qué es la Accesibilidad Web?</h2>
-        <p>La accesibilidad web consiste en potenciar el diseño web de manera tal que las personas con cualquier tipo de discapacidad puedan hacer uso de la web. Esto va a posibilitar que estos inpiduos puedan navegar, percibir, entender e interactuar con esta, aportando sus propios contenidos. La accesibilidad beneficia tanto a las personas con discapacidad como a inpiduos que han visto mermadas sus habilidades producto de la edad. La accesibilidad digital implica un acceso de todos a la web independientemente del tipo de hardware, software, infraestructura de red, idioma, cultura, localización geográfica y de la diferencia de capacidades.</p>
+    <section class="container-fluid p-5" id="queEs">
+        <h2 class="mb-3">¿Qué es la Accesibilidad Web?</h2>
+        <p class="pb-3">La accesibilidad web consiste en potenciar el diseño web de manera tal que las personas con cualquier tipo de discapacidad puedan hacer uso de la web. Esto va a posibilitar que estos inpiduos puedan navegar, percibir, entender e interactuar con esta, aportando sus propios contenidos. La accesibilidad beneficia tanto a las personas con discapacidad como a inpiduos que han visto mermadas sus habilidades producto de la edad. La accesibilidad digital implica un acceso de todos a la web independientemente del tipo de hardware, software, infraestructura de red, idioma, cultura, localización geográfica y de la diferencia de capacidades.</p>
         
-        <div class="row mt-4 gx-5 justify-content-center">
-            <div class="col-md-3">
+        <div class="row mt-4 gx-5 justify-content-center ">
+            <div class="col-md-3  ps-5">
                 <div class="card h-100 text-center border-primary shadow-lg">
                     <div class="card-body">
                         <i class="bi bi-person-arms-up fs-2 text-primary"></i>
@@ -82,7 +82,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3 ps-5">
                 <div class="card h-100 text-center border-primary shadow-lg">
                     <div class="card-body">
                         <i class="bi bi-info-circle-fill fs-2 text-primary"></i>
@@ -92,7 +92,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-md-3  ps-5">
                 <div class="card h-100 text-center border-primary shadow-lg">
                     <div class="card-body">
                         <i class="bi bi-file-arrow-up-fill fs-2 text-primary"></i>
@@ -104,8 +104,43 @@
         </div>
     </section>
 
-    <footer class="bg-dark text-light pt-3">
-        <div class="containerFooter">
+    <section id="contacto" class="p-5 pt-0">
+        <div class="container-fluid">
+            <h2 class="mb-3 text-center" id="formularioContacto">Contacto</h2>
+            <h3 class="mb-3 fs-5 text-secondary text-center">Contacta con nosotros de manera directa y sencilla</h3>
+
+            <form class="col-md-8 w-100">
+                <div class="mb-3">
+                    <label class="form-label">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Nombre completo">
+                </div>
+
+                <div class="mb-3">
+                    <label>Correo electrónico</label>
+                    <input type="email" class="form-control" placeholder="correo@ejemplo.com">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Motivo de contacto</label>
+                    <select class="form-select">
+                        <option>Consulta general</option>
+                        <option>Sugerencia</option>
+                        <option>Dudas sobre accesibilidad</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Mensaje</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar formulario</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light p-3">
+        <div class="container">
             <div class="row justify-content-center text-md-start">
                 <div class="col-md-3 mb-4">
                     <h3 class="fw-bolder">Sobre nosotros</h3>
@@ -114,9 +149,9 @@
                 <div class="col-md-2 mb-4">
                     <h3 class="fw-bolder">Enlaces</h3>
                     <div class="list-unstyled small mb-0">
-                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Inicio</a></li>
-                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Normativa</a></li>
-                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Contacto</a></li>
+                        <li><a href="#" id="inicio" class="text-decoration-none text-light d-block py-1">Inicio</a></li>
+                        <li><a href="secundaria.html" class="text-decoration-none text-light d-block py-1">Normativa</a></li>
+                        <li><a href="#contacto" class="text-decoration-none text-light d-block py-1">Contacto</a></li>
 
                     </div>
                 </div>
@@ -125,16 +160,15 @@
                     <div class="list-unstyled small mb-0">
                         <li><a href="#" class="text-decoration-none text-light d-block py-1">Ayuda</a></li>
                         <li><a href="#" class="text-decoration-none text-light d-block py-1">Privacidad</a></li>
-                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Términos</a></li>
+                        <li><a href="#contacto" class="text-decoration-none text-light d-block py-1">Términos</a></li>
                     </div>
                 </div>
-                <div class="col-md-1 mb-4">
-                    <h3 class="fw-bolder">Síguenos</h3>
-                    <div class="justify-content-center justify-content-md-start">
-                        <a href="#" class="text-light fs-5 me-3" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="text-light fs-5 me-3" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
-                        <a href="#" class="text-light fs-5" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                    </div>
+                <div class="col-md-3 mb-4">
+                    <h3 class="fw-bolder">Recursos</h3>
+                    <ul class="list-unstyled ps-0">
+                        <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" class="text-light text-decoration-none">Guía WCAG</a></li>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/Accessibility" class="text-light text-decoration-none">Recursos para desarrolladores</a></li>
+                    </ul>
                 </div>
             </div>
 
