@@ -17,6 +17,7 @@
                 <div class="navbar-collapse menu" id="menu">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#queEs">Qué es</a></li>
                         <li class="nav-item"><a class="nav-link" href="secundaria.html">Normativa</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
@@ -25,7 +26,7 @@
         </nav>
     </header>
 
-    <main class="contenedor">
+    <main class="containerMain">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators" >
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,9 +67,84 @@
         </div>
     </main>
 
-    <section>
-        <h2>¿Qué es la Accesibilidad Web?</h2>
+    <section class="container py-5" id="queEs">
+        <h2 class="text-center mb-3">¿Qué es la Accesibilidad Web?</h2>
+        <p>La accesibilidad web consiste en potenciar el diseño web de manera tal que las personas con cualquier tipo de discapacidad puedan hacer uso de la web. Esto va a posibilitar que estos inpiduos puedan navegar, percibir, entender e interactuar con esta, aportando sus propios contenidos. La accesibilidad beneficia tanto a las personas con discapacidad como a inpiduos que han visto mermadas sus habilidades producto de la edad. La accesibilidad digital implica un acceso de todos a la web independientemente del tipo de hardware, software, infraestructura de red, idioma, cultura, localización geográfica y de la diferencia de capacidades.</p>
+        
+        <div class="row mt-4 gx-5 justify-content-center">
+            <div class="col-md-3">
+                <div class="card h-100 text-center border-primary shadow-lg">
+                    <div class="card-body">
+                        <i class="bi bi-person-arms-up fs-2 text-primary"></i>
+                        <h2 class="fs-4">Inclusión para todas las personas</h2>
+                        <p>La accesibilidad web garantiza que cualquier usuario, sin importar sus capacidades físicas, sensoriales o cognitivas, pueda navegar y utilizar los contenidos digitales. Es una forma de promover la igualdad de oportunidades y la participación plena en la sociedad digital.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card h-100 text-center border-primary shadow-lg">
+                    <div class="card-body">
+                        <i class="bi bi-info-circle-fill fs-2 text-primary"></i>
+                        <h2 class="fs-4">Cumplimiento legal y ético</h2>
+                        <p>Adoptar prácticas accesibles no solo responde a valores éticos, sino también a normativas nacionales e internacionales (como la WCAG o el Real Decreto 1112/2018 en España). Cumplirlas evita sanciones y demuestra compromiso con la responsabilidad social.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card h-100 text-center border-primary shadow-lg">
+                    <div class="card-body">
+                        <i class="bi bi-file-arrow-up-fill fs-2 text-primary"></i>
+                        <h2 class="fs-4">Mejora de la experiencia y del SEO</h2>
+                        <p>Un sitio accesible es más fácil de usar para todos los usuarios: carga mejor, se entiende más rápido y es más navegable. Además, los buscadores como Google valoran positivamente la accesibilidad, mejorando la visibilidad del sitio en los resultados de búsqueda.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <footer class="bg-dark text-light pt-3">
+        <div class="containerFooter">
+            <div class="row justify-content-center text-md-start">
+                <div class="col-md-3 mb-4">
+                    <h3 class="fw-bolder">Sobre nosotros</h3>
+                    <p id="textoFooter" class="small">Nosotros estamos comprometidos con la accesibilidad digital para garantizar una web inclusiva para todos los usuarios.</p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h3 class="fw-bolder">Enlaces</h3>
+                    <div class="list-unstyled small mb-0">
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Inicio</a></li>
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Normativa</a></li>
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Contacto</a></li>
+
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h3 class="fw-bolder">Soporte</h3>
+                    <div class="list-unstyled small mb-0">
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Ayuda</a></li>
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Privacidad</a></li>
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Términos</a></li>
+                    </div>
+                </div>
+                <div class="col-md-1 mb-4">
+                    <h3 class="fw-bolder">Síguenos</h3>
+                    <div class="justify-content-center justify-content-md-start">
+                        <a href="#" class="text-light fs-5 me-3" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-light fs-5 me-3" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-light fs-5" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="text-center small">
+                &copy; 2025 Accesibilidad Web. Creemos en una web accesible, donde todas las personas puedan participar.
+            </div>
+        </div>
+    </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
