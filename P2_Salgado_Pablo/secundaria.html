@@ -1,13 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accesibilidad web</title>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand align-items-center fw-bold gap-2 d-flex" href="index.html"><img src="./multimedia/img/logoAWwhite.png" alt="logoWeb" class="logo ms-3 me-3"><span>Accesibilidad Web</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto text-end me-3">
+                        <li class="nav-item ms-3"><a class="nav-link" href="index.html#queEs">Qué es</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="#">Normativa</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <a href="#"><img id="iconoSubir" alt="iconoSubir" src="./multimedia/img/goUp.png"></a>
+    </header>
+
+    <footer class="bg-dark text-light p-3">
+        <div class="container">
+            <div class="row justify-content-center text-md-start">
+                <div class="col-md-3 mb-4">
+                    <h3 class="fw-bolder">Sobre nosotros</h3>
+                    <p id="textoFooter" class="small">Nosotros estamos comprometidos con la accesibilidad digital para garantizar una web inclusiva para todos los usuarios.</p>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h3 class="fw-bolder">Enlaces</h3>
+                    <div class="list-unstyled small mb-0">
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Inicio</a></li>
+                        <li><a href="#queEs" class="text-decoration-none text-light d-block py-1">Qué es</a></li>
+                        <li><a href="secundaria.html" class="text-decoration-none text-light d-block py-1">Normativa</a></li>
+                        <li><a href="#contacto" class="text-decoration-none text-light d-block py-1">Contacto</a></li>
+
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4">
+                    <h3 class="fw-bolder">Soporte</h3>
+                    <div class="list-unstyled small mb-0">
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Ayuda</a></li>
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Privacidad</a></li>
+                        <li><a href="#contacto" class="text-decoration-none text-light d-block py-1">Términos</a></li>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h3 class="fw-bolder">Recursos</h3>
+                    <ul class="list-unstyled small mb-0">
+                        <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" class="text-light text-decoration-none d-block py-1">Guía WCAG</a></li>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/Accessibility" class="text-light text-decoration-none d-block py-1">Recursos para desarrolladores</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="text-center small">
+                &copy; 2025 Accesibilidad Web. Creemos en una web accesible, donde todas las personas puedan participar.
+            </div>
+        </div>
+    </footer>
 </body>
 </html> 

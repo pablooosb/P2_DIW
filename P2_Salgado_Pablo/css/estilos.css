@@ -1,17 +1,24 @@
+/* fuente a toda la web */
 *{
   font-family: system-ui;
 }
+/* le damos altura definida al logo */
 .logo {
-  height: 40px;
-  width: auto;
-  margin-right: 10px;
+  height: 2.5rem;
 }
-h1{
-  font-weight: bold;
-}
+/* oscurece un 50% las imagenes del carrusel */
 .carousel-item img{
   filter: brightness(50%)
 }
-.carousel-caption h1, .textoPrincipal{
-  color: #212529;
+/* transición para el carrusel para que no sea tan brusca */
+.carousel-item {
+  transition: transform 0.5s ease-in-out !important;
+}
+/* damos posición y tamaño al botón de subir */
+#iconoSubir{
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+    width: 34px;
+    z-index: 1000;
 }
