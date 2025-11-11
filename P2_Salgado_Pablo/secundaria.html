@@ -12,13 +12,13 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand align-items-center fw-bold gap-2 d-flex" href="index.html"><img src="./multimedia/img/logoAWwhite.png" alt="logoWeb" class="logo ms-3 me-3"><span>Accesibilidad Web</span></a>
+                <a class="navbar-brand align-items-center fw-bold gap-2 d-flex" href="./index.html"><img src="./multimedia/img/logoAWwhite.png" alt="logoWeb" class="logo ms-3 me-3"><span>Accesibilidad Web</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ms-auto text-end me-3">
-                        <li class="nav-item ms-3"><a class="nav-link" href="index.html#queEs">Qué es</a></li>
-                        <li class="nav-item ms-3"><a class="nav-link" href="#">Normativa</a></li>
-                        <li class="nav-item ms-3"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="#queEs">Qué es</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="secundaria.html">Normativa</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -26,20 +26,40 @@
         <a href="#"><img id="iconoSubir" alt="iconoSubir" src="./multimedia/img/goUp.png"></a>
     </header>
 
+    <section class="ps-5 pe-5 pt-4">
+        <h2 class="fw-bolder mb-3">Comparativa visual</h2>
+        <div class="row text-center g-5 justify-content-center mb-5 w-100 h-100">
+            <div class="col-md-4 ps-5">
+                <div class="ps-4 pe-4 pt-4 pb-3 bg-light rounded">
+                    <img src="./multimedia/img/Captura de pantalla 2025-11-08 181703.png" class="img-fluid rounded pb-3">
+                    <h3>Diseño No Accesible</h3>
+                    <p>Un sitio no accesible presenta bajo contraste entre texto y fondo, tipografías pequeñas o difíciles de leer, ausencia de etiquetas alternativas en las imágenes y una estructura confusa que dificulta la navegación. Esto impide que usuarios con discapacidad visual, cognitiva o motora puedan interactuar correctamente con el contenido.</p>
+                </div>
+            </div>
+            <div class="col-md-4 ps-5">
+                <div class="ps-4 pe-4 pt-4 pb-3 bg-light rounded">
+                    <img src="./multimedia/img/Captura de pantalla 2025-11-08 181815.png" class="img-fluid rounded pb-3">
+                    <h3>Diseño Accesible</h3>
+                    <p>Un diseño accesible ofrece un alto contraste, tipografía legible, navegación clara mediante teclado y textos alternativos en las imágenes. Además, emplea encabezados jerárquicos y colores perceptibles por todos los usuarios, garantizando una experiencia inclusiva y fácil de usar en cualquier dispositivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="bg-dark text-light p-3">
         <div class="container">
             <div class="row justify-content-center text-md-start">
                 <div class="col-md-3 mb-4">
                     <h3 class="fw-bolder">Sobre nosotros</h3>
-                    <p id="textoFooter" class="small">Nosotros estamos comprometidos con la accesibilidad digital para garantizar una web inclusiva para todos los usuarios.</p>
+                    <p id="textoFooter" class="small me-3">Nosotros estamos comprometidos con la accesibilidad digital para garantizar una web inclusiva para todos los usuarios.</p>
                 </div>
                 <div class="col-md-2 mb-4">
                     <h3 class="fw-bolder">Enlaces</h3>
                     <div class="list-unstyled small mb-0">
-                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Inicio</a></li>
-                        <li><a href="#queEs" class="text-decoration-none text-light d-block py-1">Qué es</a></li>
-                        <li><a href="secundaria.html" class="text-decoration-none text-light d-block py-1">Normativa</a></li>
-                        <li><a href="#contacto" class="text-decoration-none text-light d-block py-1">Contacto</a></li>
+                        <li><a href="./index.html" class="text-decoration-none text-light d-block py-1">Inicio</a></li>
+                        <li><a href="./index.html#queEs" class="text-decoration-none text-light d-block py-1">Qué es</a></li>
+                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Normativa</a></li>
+                        <li><a href="/index.html#contacto" class="text-decoration-none text-light d-block py-1">Contacto</a></li>
 
                     </div>
                 </div>
@@ -62,7 +82,7 @@
 
             <hr>
 
-            <div class="text-center small">
+            <div class="text-center small me-3 ms-3">
                 &copy; 2025 Accesibilidad Web. Creemos en una web accesible, donde todas las personas puedan participar.
             </div>
         </div>

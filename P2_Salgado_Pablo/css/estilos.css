@@ -16,9 +16,9 @@
 }
 /* damos posición y tamaño al botón de subir */
 #iconoSubir{
-    position: fixed;
-    bottom: 12px;
-    right: 12px;
-    width: 34px;
-    z-index: 1000;
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  width: 34px;
+  z-index: 1000;
 }
