@@ -16,9 +16,9 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ms-auto text-end me-3">
-                        <li class="nav-item ms-3"><a class="nav-link" href="#queEs">Qué es</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="index.html#queEs">Qué es</a></li>
                         <li class="nav-item ms-3"><a class="nav-link" href="secundaria.html">Normativa</a></li>
-                        <li class="nav-item ms-3"><a class="nav-link" href="#contacto">Contacto</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="index.html">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -26,17 +26,60 @@
         <a href="#"><img id="iconoSubir" alt="iconoSubir" src="./multimedia/img/goUp.png"></a>
     </header>
 
-    <section class="ps-5 pe-5 pt-4">
-        <h2 class="fw-bolder mb-3">Comparativa visual</h2>
+    <main class="container my-5 px-5">
+        <h1 class="mb-3">Normativas y Buenas prácticas</h1>
+        <div>
+            <img src="./multimedia/img/imagen4.png" class="d-block w-100 mb-3 rounded" alt="imagenAccesibilidad1">
+            <p>La accesibilidad web se basa en un conjunto de principios, normativas y buenas prácticas que buscan garantizar que todas las personas, independientemente de sus capacidades o limitaciones, puedan acceder, comprender y utilizar la información y los servicios disponibles en internet. Implementar una web accesible no solo es una obligación ética, sino también legal en muchos países, ya que contribuye a la inclusión digital y a la igualdad de oportunidades.<br>
+            Las Pautas de Accesibilidad al Contenido en la Web (WCAG), desarrolladas por el W3C (World Wide Web Consortium), constituyen el estándar internacional más reconocido en esta materia. Estas pautas se estructuran en torno a cuatro principios fundamentales:<br>
+            1. Perceptible: La información y los componentes de la interfaz deben presentarse de manera que los usuarios puedan percibirlos fácilmente, por ejemplo, utilizando textos alternativos en imágenes o subtítulos en videos.<br>
+            2. Operable: Todos los elementos interactivos deben ser utilizables mediante diversos dispositivos de entrada, incluyendo teclados y lectores de pantalla, evitando interacciones que dependan únicamente del ratón.<br>
+            3. Comprensible: El contenido debe presentarse de forma clara, con lenguaje sencillo, estructura coherente y navegación predecible, de modo que los usuarios puedan entenderlo sin dificultad.<br>
+            4. Robusto: El sitio debe ser compatible con diferentes tecnologías, navegadores y herramientas de asistencia, garantizando su funcionamiento en el mayor número posible de entornos.<br>
+            Además de seguir estas pautas, las buenas prácticas de diseño accesible incluyen aspectos como el uso adecuado del contraste de color, el tamaño legible de la tipografía, la jerarquía visual clara mediante encabezados, y la inclusión de descripciones semánticas en el código HTML. También es esencial realizar evaluaciones periódicas de accesibilidad, tanto manuales como automatizadas, para detectar y corregir posibles barreras.<br>
+            Cumplir con las normativas de accesibilidad no solo beneficia a las personas con discapacidad visual, auditiva, motriz o cognitiva, sino que también mejora la experiencia de todos los usuarios. Los sitios accesibles suelen ser más usables, más rápidos y más comprensibles, lo que se traduce en una mejor optimización para buscadores (SEO) y en una mayor satisfacción general del público.<br>
+            En definitiva, apostar por la accesibilidad es apostar por una web más justa, inclusiva y universal.
+            </p>
+        </div>
+    </main>
+
+    <section class="container mb-5 px-5">
+        <h2 class="mb-3">Niveles de Conformidad</h2>
+        <table class="table table-striped align-middle table-bordered">
+            <thead>
+                <tr>
+                    <th>Nivel</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A</td>
+                    <td>Nivel básico de accesibilidad. Incluye los requisitos mínimos para que una web sea utilizable por la mayoría de usuarios, como textos alternativos en imágenes y navegación mediante teclado.</td>
+                </tr>
+                <tr>
+                    <td>AA</td>
+                    <td>Nivel intermedio y el más comúnmente exigido. Mejora la legibilidad y usabilidad general con medidas como buen contraste de color, subtítulos y estructura clara del contenido.</td>
+                </tr>
+                <tr>
+                    <td>AAA</td>
+                    <td>Nivel máximo de accesibilidad. Garantiza la mejor experiencia posible para todo tipo de usuarios, con lenguaje claro, opciones de personalización y alternativas para todos los medios.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="container px-5">
+        <h2 class="mb-3">Comparativa visual</h2>
         <div class="row text-center g-5 justify-content-center mb-5 w-100 h-100">
-            <div class="col-md-4 ps-5">
+            <div class="col-md-5 ms-5">
                 <div class="ps-4 pe-4 pt-4 pb-3 bg-light rounded">
                     <img src="./multimedia/img/Captura de pantalla 2025-11-08 181703.png" class="img-fluid rounded pb-3">
                     <h3>Diseño No Accesible</h3>
                     <p>Un sitio no accesible presenta bajo contraste entre texto y fondo, tipografías pequeñas o difíciles de leer, ausencia de etiquetas alternativas en las imágenes y una estructura confusa que dificulta la navegación. Esto impide que usuarios con discapacidad visual, cognitiva o motora puedan interactuar correctamente con el contenido.</p>
                 </div>
             </div>
-            <div class="col-md-4 ps-5">
+            <div class="col-md-5 ms-5">
                 <div class="ps-4 pe-4 pt-4 pb-3 bg-light rounded">
                     <img src="./multimedia/img/Captura de pantalla 2025-11-08 181815.png" class="img-fluid rounded pb-3">
                     <h3>Diseño Accesible</h3>
@@ -44,6 +87,17 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <section class="container mb-5 px-5">
+        <h2 class="mb-3">Recursos oficiales</h2>
+        <ul>
+            <li><a href="" data-bs-toggle="modal" data-bs-target="#redirigir1">W3C Web Accessibility Initiative (WAI)</a> - Portal oficial del W3C dedicado a la accesibilidad web. Ofrece guías, materiales de aprendizaje y herramientas para aplicar las WCAG y mejorar la inclusión digital.</li>
+            <li><a href="" data-bs-toggle="modal" data-bs-target="#redirigir2">WCAG 2.1 - Pautas de Accesibilidad para el Contenido Web</a> - Documento técnico que define los estándares internacionales de accesibilidad. Explica cómo crear contenido perceptible, operable, comprensible y robusto.</li>
+            <li><a href="" data-bs-toggle="modal" data-bs-target="#redirigir3">Observatorio de Accesibilidad Web (España)</a> - Iniciativa del Gobierno de España para evaluar la accesibilidad de sitios públicos y ofrecer formación y herramientas a administraciones y empresas.</li>
+            <li><a href="" data-bs-toggle="modal" data-bs-target="#redirigir3">Accessible Rich Internet Applications (WAI-ARIA)</a> - Especificación técnica del W3C que define cómo hacer accesibles las interfaces dinámicas y los componentes interactivos de una web.</li>
+            <li><a href="" data-bs-toggle="modal" data-bs-target="#redirigir5">Guía de Accesibilidad Web de la ONCE</a> - Recurso práctico con recomendaciones y ejemplos para aplicar los principios de accesibilidad desde el diseño inicial del sitio web.</li>
+        </ul>
     </section>
 
     <footer class="bg-dark text-light p-3">
@@ -55,27 +109,27 @@
                 </div>
                 <div class="col-md-2 mb-4">
                     <h3 class="fw-bolder">Enlaces</h3>
-                    <div class="list-unstyled small mb-0">
-                        <li><a href="./index.html" class="text-decoration-none text-light d-block py-1">Inicio</a></li>
-                        <li><a href="./index.html#queEs" class="text-decoration-none text-light d-block py-1">Qué es</a></li>
-                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Normativa</a></li>
-                        <li><a href="/index.html#contacto" class="text-decoration-none text-light d-block py-1">Contacto</a></li>
+                    <ul class="list-unstyled small mb-0">
+                        <li><a href="./index.html" class="text-decoration-none text-light d-block pb-1">Inicio</a></li>
+                        <li><a href="./index.html#queEs" class="text-decoration-none text-light d-block pb-1">Qué es</a></li>
+                        <li><a href="#" class="text-decoration-none text-light d-block pb-1">Normativa</a></li>
+                        <li><a href="/index.html#contacto" class="text-decoration-none text-light d-block">Contacto</a></li>
 
-                    </div>
+                    </ul>
                 </div>
                 <div class="col-md-2 mb-4">
                     <h3 class="fw-bolder">Soporte</h3>
-                    <div class="list-unstyled small mb-0">
-                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Ayuda</a></li>
-                        <li><a href="#" class="text-decoration-none text-light d-block py-1">Privacidad</a></li>
-                        <li><a href="#contacto" class="text-decoration-none text-light d-block py-1">Términos</a></li>
-                    </div>
+                    <ul class="list-unstyled small mb-0">
+                        <li><a href="#" class="text-decoration-none text-light d-block pb-1">Ayuda</a></li>
+                        <li><a href="#" class="text-decoration-none text-light d-block pb-1">Privacidad</a></li>
+                        <li><a href="#contacto" class="text-decoration-none text-light d-block">Términos</a></li>
+                    </ul>
                 </div>
                 <div class="col-md-3 mb-4">
                     <h3 class="fw-bolder">Recursos</h3>
                     <ul class="list-unstyled small mb-0">
-                        <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" class="text-light text-decoration-none d-block py-1">Guía WCAG</a></li>
-                        <li><a href="https://developer.mozilla.org/es/docs/Web/Accessibility" class="text-light text-decoration-none d-block py-1">Recursos para desarrolladores</a></li>
+                        <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" class="text-light text-decoration-none d-block pb-1">Guía WCAG</a></li>
+                        <li><a href="https://developer.mozilla.org/es/docs/Web/Accessibility" class="text-light text-decoration-none d-block">Recursos para desarrolladores</a></li>
                     </ul>
                 </div>
             </div>
@@ -87,5 +141,77 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal" id="redirigir1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>¿Seguro que quieres redirigirte a la fuente original de la información?</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.w3.org/WAI/" target="_blank" class="btn btn-primary">Redirigir</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="redirigir2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>¿Seguro que quieres redirigirte a la fuente original de la información?</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.w3.org/TR/WCAG21/" target="_blank" class="btn btn-primary">Redirigir</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="redirigir3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>¿Seguro que quieres redirigirte a la fuente original de la información?</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://observatoriodelaaccesibilidad.es/" target="_blank" class="btn btn-primary">Redirigir</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="redirigir4" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>¿Seguro que quieres redirigirte a la fuente original de la información?</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.w3.org/TR/wai-aria/" target="_blank" class="btn btn-primary">Redirigir</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="redirigir5" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <p>¿Seguro que quieres redirigirte a la fuente original de la información?</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.once.es/" target="_blank" class="btn btn-primary">Redirigir</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html> 
