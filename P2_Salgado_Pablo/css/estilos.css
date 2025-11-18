@@ -6,9 +6,12 @@
 .logo {
   height: 2.5rem;
 }
-/* oscurece un 50% las imagenes del carrusel */
+/* oscurece un 50% las imagenes del carrusel y le da tamaño */
 .carousel-item img{
-  filter: brightness(50%)
+  object-fit: cover;
+  filter: brightness(50%);
+  height: 40vh;
+  width: 100vw;
 }
 /* transición para el carrusel para que no sea tan brusca */
 .carousel-item {
