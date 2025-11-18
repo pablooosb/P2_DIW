@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accesibilidad web</title>
+    <link rel="icon" type="image/png" href="./multimedia/img/logoAWwhite.png">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Menú horizontal en la parte de arriba con el icono junto al titulo de la web, y los apartados funcionales -->
     <header>
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand align-items-center fw-bold gap-2 d-flex" href="./index.html"><img src="./multimedia/img/logoAWwhite.png" alt="logoWeb" class="logo ms-3 me-3"><span>Accesibilidad Web</span></a>
+                <a class="navbar-brand align-items-center fw-bold gap-2 d-flex" href="#"><img src="./multimedia/img/logoAWwhite.png" alt="logoWeb" class="logo ms-3 me-3"><span>Accesibilidad Web</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="menu">
                     <ul class="navbar-nav ms-auto text-end me-3">
-                        <li class="nav-item ms-3"><a class="nav-link" href="index.html#queEs">Qué es</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="#queEs">Qué es</a></li>
                         <li class="nav-item ms-3"><a class="nav-link" href="secundaria.html">Normativa</a></li>
-                        <li class="nav-item ms-3"><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                        <li class="nav-item ms-3"><a class="nav-link" href="#contacto">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -26,6 +28,7 @@
         <a href="#"><img id="iconoSubir" alt="iconoSubir" src="./multimedia/img/goUp.png" data-bs-toggle="tooltip" data-bs-placement="top" title="Subir al inicio"></a>
     </header>
 
+    <!-- Texto con las buenas prácticas que debería tener una web -->
     <main class="container my-5 px-5">
         <h1 class="mb-3">Normativas y Buenas prácticas</h1>
         <div>
@@ -43,6 +46,7 @@
         </div>
     </main>
 
+    <!-- Tabla estilizada -->
     <section class="container mb-5 px-5">
         <h2 class="mb-3">Niveles de Conformidad</h2>
         <table class="table table-striped align-middle table-bordered">
@@ -69,6 +73,7 @@
         </table>
     </section>
 
+    <!-- Apartado de comparativa visual con dos imagenes y texto debajo de ellas sobre un diseño accesible y un no accesible -->
     <section class="container px-5">
         <h2 class="mb-3">Comparativa visual</h2>
         <div class="row text-center g-5 justify-content-center mb-5 w-100 h-100">
@@ -89,6 +94,7 @@
         </div>
     </section>
 
+    <!-- Apartado de recursos con sus links para dirigirte a las web incluyendo un modal -->
     <section class="container mb-5 px-5">
         <h2 class="mb-3">Recursos oficiales</h2>
         <ul>
@@ -100,6 +106,7 @@
         </ul>
     </section>
 
+    <!-- Footer que contiene distintos links, algunos para usarse en la propia web y otros para redirgirte -->
     <footer class="bg-dark text-light p-3">
         <div class="container">
             <div class="row justify-content-center text-md-start">
@@ -110,11 +117,10 @@
                 <div class="col-md-2 mb-4">
                     <h3 class="fw-bolder">Enlaces</h3>
                     <ul class="list-unstyled small mb-0">
-                        <li><a href="./index.html" class="text-decoration-none text-light d-block pb-1">Inicio</a></li>
-                        <li><a href="./index.html#queEs" class="text-decoration-none text-light d-block pb-1">Qué es</a></li>
-                        <li><a href="#" class="text-decoration-none text-light d-block pb-1">Normativa</a></li>
-                        <li><a href="./index.html#contacto" class="text-decoration-none text-light d-block">Contacto</a></li>
-
+                        <li><a href="#" class="text-decoration-none text-light d-block pb-1">Inicio</a></li>
+                        <li><a href="#queEs" class="text-decoration-none text-light d-block pb-1">Qué es</a></li>
+                        <li><a href="secundaria.html" class="text-decoration-none text-light d-block pb-1">Normativa</a></li>
+                        <li><a href="#contacto" class="text-decoration-none text-light d-block">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 mb-4">
@@ -142,6 +148,7 @@
         </div>
     </footer>
 
+    <!-- Modal para el link de ver más del primer apartado de recursos oficiales -->
     <div class="modal" id="redirigir1" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -156,6 +163,7 @@
         </div>
     </div>
 
+    <!-- Modal para el link de ver más del segundo apartado de recursos oficiales -->
     <div class="modal" id="redirigir2" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -170,6 +178,7 @@
         </div>
     </div>
 
+    <!-- Modal para el link de ver más del tercer apartado de recursos oficiales -->
     <div class="modal" id="redirigir3" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -184,6 +193,7 @@
         </div>
     </div>
 
+    <!-- Modal para el link de ver más del cuarto apartado de recursos oficiales -->
     <div class="modal" id="redirigir4" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -198,6 +208,7 @@
         </div>
     </div>
 
+    <!-- Modal para el link de ver más del quinto apartado de recursos oficiales -->
     <div class="modal" id="redirigir5" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
